@@ -347,7 +347,7 @@
 			/**
 			 * Returns the main toolbar-object (the parent of all items in the floating-toolbar)
 			 */
-			get_element = function(editor) {
+			get_element = function() {
 				if (! editor.floatingtools.dom) {
 					var dom_id = editor.ui.spaceId( 'floatingtools' );
 					editor.floatingtools.dom = CKEDITOR.document.getById( dom_id );
